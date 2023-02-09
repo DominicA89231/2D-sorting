@@ -4,7 +4,7 @@ My code uses SFML, so the required lib / bin / dll files are necessary to run th
 Here are my attempts at efficient collision detection algorithms using quadtrees and spatial hashing. My implementation of spatial hashing worked much better than my implementation of quadtrees. The difference between quadtree insert and quadtree no insert is that quadtree no insert was made with std::vector, while quadtree insert was made with pointers from one element to another. I wanted to design a more space efficient algorithm for detecting collision while also adding the ability to quickly insert another element into the scene. Big Balls.cpp is the application of spatial hashing to an object with two dimensions, not just a point.
 
 ![image](https://user-images.githubusercontent.com/103447109/217917712-cb54927d-ecc2-4ddd-b656-f1c64f8523e9.png)
-This shows my spatial hash program computing collisions for 100,000 objects at 60 fps.
+This shows my spatial hash program computing real-time collisions for 100,000 objects at about 60 fps.
 
 
 ![image](https://user-images.githubusercontent.com/103447109/217918532-132654d4-9784-4c21-b80d-88766bbc0c45.png)
