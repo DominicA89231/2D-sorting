@@ -13,7 +13,7 @@ This shows my quadtree with insert computing collisions.
 
 ![image](https://user-images.githubusercontent.com/103447109/217919391-80fd3632-a6f6-461c-bf1c-c0896eaa3bb7.png)
 
-Bounding box for my quadtree no insert algorithm.
+Bounding box for my quadtree no insert algorithm. The points inside are highlighted.
 
 ![image](https://user-images.githubusercontent.com/103447109/217920491-f3921ad9-72c8-4013-83ca-5f562cd4d187.png)
 
